@@ -3,7 +3,7 @@ import React from "react";
 
 function InputAndOthers(): JSX.Element {
   return (
-    <div className="flex flex-row justify-around items-baseline w-full mb-4 px-3">
+    <div className="flex flex-row justify-around items-baseline w-full mb-4">
       <div className="topbar mr-5 flex flex-row relative">
         <input
           type="text"
@@ -27,14 +27,14 @@ function InputAndOthers(): JSX.Element {
 
       <div className="ml-5 flex flex-row justify-around items-center topbar_left pr-5 space-x-7">
         <div className="relative cursor-pointer">
-          {/* <Image
-            src={"/bell.svg"}
+          <Image
+            src={"/img/bell.svg"}
             className="mr-3 cursor-pointer"
             alt="notification_bell"
             width={24}
             height={24}
-          /> */}
-          <svg
+          />
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -42,7 +42,7 @@ function InputAndOthers(): JSX.Element {
             fill="#3733a2"
           >
             <path d="M12 22a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22zm7-7.414V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v4.586l-1.707 1.707A.996.996 0 0 0 3 17v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a.996.996 0 0 0-.293-.707L19 14.586z"></path>
-          </svg>
+          </svg> */}
 
           <span className="badge-overlay circle">3</span>
         </div>
@@ -54,10 +54,10 @@ function InputAndOthers(): JSX.Element {
             width={42}
             height={42}
           />
-          <span className="absolute top-0 left-0 dot bg-green"></span>
+          <span className=" dot bg-green"></span>
         </div>
         <div className="place-self-start">
-          <p className="pt-2 ml-5 text-darkText text-sm">Abigail</p>
+          <p className="pt-3 ml-5 text-darkText">Abigail</p>
         </div>
       </div>
     </div>
