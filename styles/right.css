@@ -1,0 +1,76 @@
+.right {
+  width: calc(100% - 250px);
+}
+
+.button {
+  height: 40px;
+  right: 1%;
+  top: 5%;
+}
+
+input[type="text"] {
+  width: 600px;
+}
+
+img {
+  position: absolute !important;
+  left: 3%;
+  top: 48.7%;
+}
+
+.badge-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle {
+  background-color: #a9333f;
+  color: white;
+  font-weight: normal;
+  border-radius: 9px;
+  padding: 0px 5px;
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  top: auto;
+  font-size: 10px;
+}
+
+.avatar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dot {
+  background-color: #36cc61;
+  border-radius: 50%;
+  position: absolute;
+  left: 78px;
+  bottom: 0px;
+  top: 30px;
+  width: 10px;
+  height: 10px;
+}
+
+.options {
+  width: max-content;
+  height: 50px;
+  border: 2px solid #f3f3f3;
+  border-radius: 8px;
+}
+
+.options_content {
+  border-right: 2px solid #f5f5f5;
+  cursor: pointer;
+}
+
+/* p {
+      color: #d4d4d4;
+      span {
+        &:nth-child(1) {
+          font-size: 13px;
+        }
+      }
+    } */

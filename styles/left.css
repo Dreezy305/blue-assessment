@@ -1,0 +1,5 @@
+.left {
+  width: 250px;
+  border-right: 2px solid#ededef;
+  min-height: 100vh;
+}
