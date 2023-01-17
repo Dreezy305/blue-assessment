@@ -10,9 +10,10 @@
 
 input[type="text"] {
   width: 600px;
+  border: 2px solid #fafafc;
 }
 
-img {
+.img {
   position: absolute !important;
   left: 3%;
   top: 48.7%;

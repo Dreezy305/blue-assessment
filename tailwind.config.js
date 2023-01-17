@@ -12,6 +12,7 @@ module.exports = {
         dark: "#fafafc",
         deepPurple: "#3c339c",
         green: "#36cc61",
+        darkText: "#d4d4d4",
       },
     },
   },
