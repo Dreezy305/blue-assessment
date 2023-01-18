@@ -4,6 +4,15 @@ const nextConfig = {
   env: {
     API_KEY: process.env.API_KEY,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "api.unsplash.com",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
