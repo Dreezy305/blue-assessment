@@ -19,7 +19,13 @@ function Unsplash({ data }: any): JSX.Element {
                     alt="unsplash_image"
                   />
                 </div>
-                 <div className="flip-box-back"></div>
+                <div className="flip-box-back ">
+                  <img
+                    src={image.urls.small}
+                    className="imgs cursor-pointer"
+                    alt="unsplash_image"
+                  />
+                </div>
               </div>
             </div>
           );

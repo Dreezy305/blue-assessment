@@ -63,6 +63,17 @@ a {
   transform: rotateY(180deg);
 }
 
+.flip-box-front {
+  background-color: transparent;
+  /* color: black; */
+}
+
+.flip-box-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+}
+
 /* .flip-box {
   background-color: transparent;
   width: 25% !important;
