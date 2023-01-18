@@ -13,6 +13,7 @@ module.exports = {
         deepPurple: "#3c339c",
         green: "#36cc61",
         darkText: "#d4d4d4",
+        light: "#f5f5f5",
       },
     },
   },
