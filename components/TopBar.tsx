@@ -8,7 +8,7 @@ function TopBar(): JSX.Element {
   const data = useContext(ImageContextProvider);
 
   return (
-    <div className="pt-3 w-full flex flex-col items-start space-y-3 relative px-3">
+    <div className="pt-3 w-full flex flex-col items-start space-y-3 justify-start px-4">
       <InputAndOthers />
       <FilterOptions />
       <Unsplash data={data} />

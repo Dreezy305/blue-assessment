@@ -3,7 +3,7 @@ import React from "react";
 
 function FilterOptions(): JSX.Element {
   return (
-    <div className="pl-12">
+    <div className="">
       <div className="flex flex-row place-self-center options w-full">
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">

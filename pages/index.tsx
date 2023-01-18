@@ -20,7 +20,7 @@ export default function Home() {
         <div className="left flex flex-col items-center justify-center">
           <LeftSideBar />
         </div>
-        <div className="right flex flex-col">
+        <div className="right flex flex-col items-start px-5">
           <TopBar />
         </div>
       </main>

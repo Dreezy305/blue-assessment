@@ -3,7 +3,7 @@ import React from "react";
 
 function InputAndOthers(): JSX.Element {
   return (
-    <div className="flex flex-row justify-around items-baseline w-full mb-4">
+    <div className="flex flex-row items-baseline justify-between mb-4 w-full">
       <div className="topbar mr-5 flex flex-row relative">
         <input
           type="text"
