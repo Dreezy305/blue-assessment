@@ -7,11 +7,11 @@ function InputAndOthers(): JSX.Element {
   const [show, setShow] = useState(false);
 
   return (
-    <div className="flex flex-row items-baseline md:space-x-5 lg:justify-between mb-4 lg:w-full md:w-10/12">
+    <div className="flex flex-row items-baseline md:space-x-24 lg:justify-between mb-4 lg:w-full md:w-10/12">
       <div className="flex flex-row relative">
         <input
           type="text"
-          className="mt-4 px-14 pr-28 outline-none h-12 rounded-lg border border-solid border-dark focus:outline-none placeholder:text-purple font-medium placeholder:font-medium bg-white font-roboto"
+          className="mt-4 px-14 pr-28 outline-none h-12 rounded-lg border border-solid border-dark focus:outline-none placeholder:text-purple font-medium placeholder:font-medium bg-white font-roboto lg:w-[600px] md:w-[450px]"
           placeholder="Find Something..."
         />
         <Image
