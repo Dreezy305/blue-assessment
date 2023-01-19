@@ -1,3 +1,5 @@
+import { notification } from "@/utils/data";
+import { notificationInterface } from "@/utils/interfaces";
 import Image from "next/image";
 import React from "react";
 
@@ -10,13 +12,13 @@ function Notification({ className }: Props): JSX.Element {
     <div
       className={`${className} bg-white rounded-2xl flex flex-col w-72 shadow-md py-2 z-50`}
     >
-      {[1, 2, 3].map((i, idx) => {
+      {notification.map((i: notificationInterface, idx: any) => {
         return (
           <>
             {" "}
             <div
               className="flex flex-row justify-between items-baseline px-3 py-4"
-              key={i + idx}
+              key={i.id}
             >
               <div className="flex flex-row items-center space-x-2">
                 <Image
@@ -29,10 +31,10 @@ function Notification({ className }: Props): JSX.Element {
                 />
                 <p className="flex flex-col">
                   <span className="text-sm font-roboto text-darkText font-medium">
-                    Micheal liked you
+                    {i.title}
                   </span>
                   <span className="text-xs font-roboto text-darkText font-medium">
-                    last seen 2 days
+                    {i.subTitle}
                   </span>
                 </p>
               </div>
@@ -54,7 +56,7 @@ function Notification({ className }: Props): JSX.Element {
                 </svg>
               </div>
             </div>
-            {i === 3 ? "" : <hr />}
+            {i.id === 3 ? "" : <hr />}
           </>
         );
       })}
