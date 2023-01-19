@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       poppins: "Poppins",
+      roboto: ["Roboto"],
     },
     extend: {
       colors: {
@@ -16,6 +17,7 @@ module.exports = {
         green: "#36cc61",
         darkText: "#d4d4d4",
         light: "#f5f5f5",
+        purpleText: "#4841a0",
       },
     },
   },

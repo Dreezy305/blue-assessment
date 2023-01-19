@@ -17,7 +17,7 @@ function LeftSideBar(): JSX.Element {
       <ul className="list-none p-0 m-0">
         <li className="flex flex-row items-center p-4 cursor-pointer space-x-3">
           <img src={image} className="" alt="logo_icon" />
-          <p className="">{title}</p>
+          <p className="font-medium font-roboto text-darkText">{title}</p>
         </li>
       </ul>
     );
@@ -32,17 +32,17 @@ function LeftSideBar(): JSX.Element {
             className="float-left ms-2 me-2"
             alt="bluecube"
           />
-          <p className="font-medium text-xl" style={{ color: "#4841a0" }}>
+          <p className="font-medium text-xl text-purpleText font-roboto">
             bluecube
           </p>
         </li>
-        <li className="flex flex-row items-center p-4 cursor-pointer space-x-3 border border-solid rounded-lg mt-4">
+        <li className="flex flex-row items-center p-4 cursor-pointer space-x-3">
           <img
             src={"/home.svg"}
             className="float-left ms-2 me-2"
             alt="logo_icon"
           />
-          <p className="">Home</p>
+          <p className="font-medium font-roboto text-darkText">Home</p>
         </li>
         <li className="flex flex-row items-center p-4 cursor-pointer space-x-3">
           <img
@@ -50,10 +50,10 @@ function LeftSideBar(): JSX.Element {
             className="float-left ms-2 me-2"
             alt="logo_icon"
           />
-          <p className="">Message</p>
+          <p className="font-medium font-roboto text-darkText">Message</p>
         </li>
         <li className="flex flex-row items-center p-4 cursor-pointer space-x-3">
-          <p className="">SHARED</p>
+          <p className="font-medium font-roboto">SHARED</p>
         </li>
       </ul>
 
@@ -65,3 +65,5 @@ function LeftSideBar(): JSX.Element {
 }
 
 export default LeftSideBar;
+
+// border border-solid rounded-lg mt-4

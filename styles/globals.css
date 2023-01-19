@@ -17,6 +17,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background: #fafafc;
 }
 
 html,
@@ -98,3 +99,10 @@ a {
   top: 72%;
   color: #c0bfc4;
 }
+
+.notification {
+  left: -340%;
+  top: 140%;
+  z-index: 1000;
+}
+

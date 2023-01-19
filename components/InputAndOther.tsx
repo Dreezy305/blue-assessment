@@ -1,38 +1,53 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
+import Notification from "./Notification";
 
 function InputAndOthers(): JSX.Element {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="flex flex-row items-baseline justify-between mb-4 w-full">
       <div className="topbar mr-5 flex flex-row relative">
         <input
           type="text"
-          className="mt-4 px-14 pr-28 outline-none h-12 rounded-lg border border-solid border-dark focus:outline-none placeholder:text-purple font-medium placeholder:font-medium"
+          className="mt-4 px-14 pr-28 outline-none h-12 rounded-lg border border-solid border-dark focus:outline-none placeholder:text-purple font-medium placeholder:font-medium bg-white font-roboto"
           placeholder="Find Something..."
         />
         <Image
           src={"/search.svg"}
-          className="absolute img"
+          className="absolute img bg-white"
           alt="search_icon"
           width={24}
           height={24}
         />
         <button
           type="button"
-          className="bg-deepPurple absolute mt-4 px-4 text-purple rounded-md py-3 flex flex-row items-center justify-center text-center font-medium button"
+          className="bg-deepPurple absolute mt-4 px-4 text-purple rounded-md py-3 flex flex-row items-center justify-center text-center font-medium button font-roboto"
         >
           Search
         </button>
       </div>
 
       <div className="ml-5 flex flex-row justify-around items-center topbar_left pr-5 space-x-7">
-        <div className="relative cursor-pointer">
+        <div
+          className="relative cursor-pointer"
+          onMouseOver={() => setShow(true)}
+          onMouseLeave={() => setShow(false)}
+        >
           <Image
             src={"/img/bell.svg"}
             className="mr-3 cursor-pointer"
             alt="notification_bell"
             width={24}
             height={24}
+            onMouseOver={() => setShow(true)}
+            onMouseLeave={() => setShow(false)}
+          />
+          {/* CARD GOES HERE */}
+          <Notification
+            className={`${
+              show ? "block" : "hidden"
+            } absolute top-6 z-50 notification bg-white`}
           />
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,10 +69,12 @@ function InputAndOthers(): JSX.Element {
             width={42}
             height={42}
           />
-          <span className=" dot bg-green"></span>
+          <span className="dot bg-green"></span>
         </div>
         <div className="place-self-start">
-          <p className="pt-3 ml-5 text-darkText">Abigail</p>
+          <p className="pt-3 ml-5 text-darkText font-roboto font-medium">
+            Abigail
+          </p>
         </div>
       </div>
     </div>

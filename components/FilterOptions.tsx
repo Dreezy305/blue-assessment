@@ -7,7 +7,9 @@ function FilterOptions(): JSX.Element {
       <div className="flex flex-row place-self-center options w-full">
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">World</span>
+            <span className="me-2 font-roboto text-darkText font-medium">
+              World
+            </span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
@@ -22,7 +24,9 @@ function FilterOptions(): JSX.Element {
 
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">Following</span>
+            <span className="me-2 font-roboto font-medium text-darkText">
+              Following
+            </span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
@@ -37,7 +41,9 @@ function FilterOptions(): JSX.Element {
 
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">Popular</span>
+            <span className="me-2 font-roboto font-medium text-darkText">
+              Popular
+            </span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
@@ -52,7 +58,9 @@ function FilterOptions(): JSX.Element {
 
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">Post</span>
+            <span className="me-2 font-roboto text-darkText font-medium">
+              Post
+            </span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
@@ -67,7 +75,9 @@ function FilterOptions(): JSX.Element {
 
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">Gender</span>
+            <span className="me-2 font-roboto font-medium text-darkText">
+              Gender
+            </span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
@@ -82,7 +92,9 @@ function FilterOptions(): JSX.Element {
 
         <div className="options_content">
           <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">Location</span>
+            <span className="me-2 font-roboto font-medium text-darkText">
+              Location
+            </span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
@@ -99,8 +111,8 @@ function FilterOptions(): JSX.Element {
           className="options_content"
           style={{ borderRight: "0px solid #f5f5f5" }}
         >
-          <p className="flex flex-row items-center space-x-3 py-2 px-3">
-            <span className="me-2">Profession</span>
+          <p className="flex flex-row items-center space-x-3 py-2 px-3 font-medium text-darkText">
+            <span className="me-2 font-roboto">Profession</span>
             <span className="">
               <Image
                 src={"/img/chevronDown.svg"}
