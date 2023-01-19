@@ -67,16 +67,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
-/* p {
-      color: #d4d4d4;
-      span {
-        &:nth-child(1) {
-          font-size: 13px;
-        }
-      }
-    } */
-
-@media (min-width: 768px) and (max-width: 1120px) {
+@media (min-width: 768px) and (max-width: 1180px) {
   .right {
     width: 100%;
   }
