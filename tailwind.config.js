@@ -24,6 +24,7 @@ module.exports = {
         darkText: "#d4d4d4",
         light: "#f5f5f5",
         purpleText: "#4841a0",
+        borderLight: "#f3f3f3",
       },
     },
   },
