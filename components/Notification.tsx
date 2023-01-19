@@ -28,8 +28,12 @@ function Notification({ className }: Props): JSX.Element {
                   style={{ borderRadius: "100%" }}
                 />
                 <p className="flex flex-col">
-                  <span className="text-sm font-roboto">Micheal liked you</span>
-                  <span className="text-xs font-roboto">last seen 2 days</span>
+                  <span className="text-sm font-roboto text-darkText font-medium">
+                    Micheal liked you
+                  </span>
+                  <span className="text-xs font-roboto text-darkText font-medium">
+                    last seen 2 days
+                  </span>
                 </p>
               </div>
               <div>

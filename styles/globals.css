@@ -17,7 +17,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: #fafafc;
+  /* background: #fafafc; */
 }
 
 html,
@@ -91,13 +91,13 @@ a {
   position: absolute;
   top: 58%;
   font-size: 15px;
-  color: #9e9ab3;
+  /* color: #9e9ab3; */
 }
 
 #p {
   position: absolute;
   top: 72%;
-  color: #c0bfc4;
+  /* color: #c0bfc4; */
 }
 
 .notification {
@@ -105,4 +105,3 @@ a {
   top: 140%;
   z-index: 1000;
 }
-
