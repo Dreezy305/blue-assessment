@@ -105,3 +105,41 @@ a {
   top: 140%;
   z-index: 1000;
 }
+
+.details {
+  bottom: 10%;
+}
+
+.slide-in {
+  animation-name: content;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+@keyframes content {
+  0% {
+    top: -3000%;
+  }
+
+  100% {
+    top: 140%;
+  }
+}
+
+.slide-out {
+  animation-name: contents;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+@keyframes contents {
+  0% {
+    top: 140%;
+  }
+
+  100% {
+    top: -3000%;
+  }
+}

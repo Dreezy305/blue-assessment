@@ -46,7 +46,7 @@ function InputAndOthers(): JSX.Element {
           {/* CARD GOES HERE */}
           <Notification
             className={`${
-              show ? "block" : "hidden"
+              show ? "block slide-in" : "slide-out"
             } absolute top-6 z-50 notification bg-white`}
           />
           {/* <svg
