@@ -1,5 +1,6 @@
 .right {
   width: calc(100% - 250px);
+  min-height: 100vh;
 }
 
 .button {
@@ -75,3 +76,9 @@ input[type="text"] {
         }
       }
     } */
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .right {
+    width: 100%;
+  }
+}
