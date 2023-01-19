@@ -7,7 +7,7 @@ function Unsplash({ data }: any): JSX.Element {
   const images = data?.data;
   return (
     <div className="mx-auto pt-6 mb-5 pb-5">
-      <div className="grid grid-cols-5 gap-y-6">
+      <div className="md:grid md:grid-cols-5 lg:grid lg:grid-cols-5 lg:gap-y-6">
         {images.map((image: any, index: any) => {
           return (
             <div className="w-10/12 pb-3 flip-box" key={index}>
