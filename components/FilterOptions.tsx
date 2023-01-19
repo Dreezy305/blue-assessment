@@ -5,7 +5,7 @@ import React from "react";
 function FilterOptions(): JSX.Element {
   return (
     <div className="">
-      <div className="flex flex-row place-self-center options md:w-4/5 lg:w-full border">
+      <div className="flex flex-row options  lg:w-full border right-width">
         <div className="cursor-pointer border-r-2 border-solid border-r-light flex flex-row justify-between items-center px-4">
           <span className="me-2 font-roboto font-medium text-darkText">
             World
