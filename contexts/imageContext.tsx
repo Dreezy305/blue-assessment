@@ -12,11 +12,13 @@ function ImageContext({ children }: Props) {
   const [data, setData] = useState<any[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
 
+  //  `https://api.unsplash.com/photos/?client_id=${process.env.NEXT_PUBLIC_API_KEY}`
+
   const fetchPictures = async () => {
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://api.unsplash.com/photos/?client_id=${process.env.API_KEY}`
+        `https://api.unsplash.com/photos/?client_id=n4mKFED6xmTSJ_HZ2ceT_Vnunl8CC1pBxE0swmvPLIk`
       );
       if (response.status === 200) {
         setData(response?.data);

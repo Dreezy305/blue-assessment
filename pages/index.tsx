@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/cube.svg" />
       </Head>
       <main className="flex flex-row bg-dark">
-        <div className="left pt-3 hidden lg:block md:block">
+        <div className="left pt-3 hidden lg:block md:hidden">
           <LeftSideBar />
         </div>
         <div className="right flex flex-col items-start px-5">

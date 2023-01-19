@@ -62,7 +62,7 @@ function InputAndOthers(): JSX.Element {
 
           <span className="badge-overlay circle">{notification.length}</span>
         </div>
-        <div className="relative">
+        <div className="relative md:hidden lg:block">
           <Image
             src={"/img/avatar_two.svg"}
             className="ml-5"
@@ -72,7 +72,7 @@ function InputAndOthers(): JSX.Element {
           />
           <span className="dot bg-green"></span>
         </div>
-        <div className="place-self-start">
+        <div className="place-self-start md:hidden lg:block">
           <p className="pt-3 ml-5 text-darkText font-roboto font-medium">
             Abigail
           </p>

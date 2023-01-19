@@ -7,10 +7,10 @@ function Unsplash({ data }: any): JSX.Element {
   const images = data?.data;
   return (
     <div className="mx-auto pt-6 mb-5 pb-5">
-      <div className="md:grid md:grid-cols-5 lg:grid lg:grid-cols-5 lg:gap-y-6">
+      <div className="md:grid md:grid-cols-5 md:gap-y-6  lg:grid lg:grid-cols-5 lg:gap-y-6 md:w-full">
         {images.map((image: any, index: any) => {
           return (
-            <div className="w-10/12 pb-3 flip-box" key={index}>
+            <div className="md:w-full lg:w-10/12 pb-3 flip-box" key={index}>
               <div className="flip-box-inner">
                 <div className="flip-box-front">
                   <img
@@ -46,7 +46,7 @@ function Unsplash({ data }: any): JSX.Element {
                         <circle cx="12" cy="11" r="3" />
                         <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                       </svg>
-                      <span className="text-xs bg-transparent font-roboto font-semibold text-dark whitespace-nowrap">
+                      <span className="text-xs bg-transparent font-roboto font-semibold text-dark truncate">
                         {image.user.location}
                       </span>
                     </div>
