@@ -5,7 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {},
+    fontFamily: {
+      poppins: "Poppins",
+    },
     extend: {
       colors: {
         purple: "#dedede",

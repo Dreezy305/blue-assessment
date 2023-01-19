@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-row">
-        <div className="left flex flex-col items-center justify-center">
+        <div className="left pt-3">
           <LeftSideBar />
         </div>
         <div className="right flex flex-col items-start px-5">

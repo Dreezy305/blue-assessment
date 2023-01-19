@@ -36,7 +36,7 @@ function LeftSideBar(): JSX.Element {
             bluecube
           </p>
         </li>
-        <li className="flex flex-row items-center p-4 cursor-pointer space-x-3">
+        <li className="flex flex-row items-center p-4 cursor-pointer space-x-3 border border-solid rounded-lg mt-4">
           <img
             src={"/home.svg"}
             className="float-left ms-2 me-2"
